@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 group = 'LnpUpmQ'
-version = '5.5.9.7'
+version = '5.6.7'
 
 
 repositories {
@@ -18,7 +18,7 @@ java {
 publishing {
     publications {
         maven(MavenPublication) {
-            artifact('libs/HTProtectLib-5.5.9.7.aar') {
+            artifact('libs/HTProtectLib-5.6.7.aar') {
                 groupId project.group
                 artifactId project.name
                 version project.version
